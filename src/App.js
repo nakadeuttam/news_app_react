@@ -74,13 +74,13 @@ setProgress=(progress)=>{
 
 
         <Routes>
-          <Route exact path="/" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="general" progresstheme={this.state.theme} category='general' country='in'></NewsComponent >}></Route>
-          <Route exact path="/Sports" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="sports" theme={this.state.theme} category='sports' country='in'></NewsComponent >}></Route>
-          <Route exact path="/Entertainment" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="entertain" theme={this.state.theme} category='entertainment' country='in'></NewsComponent >}></Route>
-          <Route exact path="/Health" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="health" theme={this.state.theme} category='health' country='in'></NewsComponent >}></Route>
-          <Route exact path="/Business" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="buissness" theme={this.state.theme} category='business' country='in'></NewsComponent >}></Route>
-          <Route exact path="/Technology" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="technology" theme={this.state.theme} category='technology' country='in'></NewsComponent >}></Route>
-          <Route exact path="/Science" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="science" theme={this.state.theme} category='science' country='in'></NewsComponent >}></Route>
+          <Route exact path="/" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="general" progresstheme={this.state.theme} category='general' country='us'></NewsComponent >}></Route>
+          <Route exact path="/Sports" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="sports" theme={this.state.theme} category='sports' country='us'></NewsComponent >}></Route>
+          <Route exact path="/Entertainment" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="entertain" theme={this.state.theme} category='entertainment' country='us'></NewsComponent >}></Route>
+          <Route exact path="/Health" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="health" theme={this.state.theme} category='health' country='us'></NewsComponent >}></Route>
+          <Route exact path="/Business" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="buissness" theme={this.state.theme} category='business' country='us'></NewsComponent >}></Route>
+          <Route exact path="/Technology" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="technology" theme={this.state.theme} category='technology' country='us'></NewsComponent >}></Route>
+          <Route exact path="/Science" element={<NewsComponent Api_key={process.env.REACT_APP_MY_API_KEY} setProgress={this.setProgress} key="science" theme={this.state.theme} category='science' country='us'></NewsComponent >}></Route>
           
           
         </Routes>
